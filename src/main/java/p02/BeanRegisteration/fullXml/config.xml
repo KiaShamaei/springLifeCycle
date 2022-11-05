@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="p02.BeanRegisteration.fullXml.BeanMessageDigest" id="md5" />
+    <bean class="p02.BeanRegisteration.fullXml.BeanMessageDigest" id="sha"
+    p:algorithmName="SHA1"
+    />
+    <bean id="md5Digest"
+            factory-bean="md5"
+          factory-method="creatInstance" >
+    </bean>
+    <bean id="shaDigset"
+            factory-bean="sha"
+          factory-method="creatInstance" />
+    <bean class="p02.BeanRegisteration.fullXml.UseMessageDigest" id="useDigster"
+    p:dig1-ref="md5Digest"
+          p:dig2-ref="shaDigset"
+    />
+
+</beans>
