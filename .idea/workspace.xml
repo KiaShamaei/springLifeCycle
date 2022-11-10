@@ -4,65 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7b5eb70-b812-4c96-9af2-05a5f715115c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/injectPrototypeInSingleton/withAbstract/PrototypeBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/injectPrototypeInSingleton/withAbstract/SingletonBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/injectPrototypeInSingleton/withAbstract/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/injectPrototypeInSingleton/withAbstract/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/injectPrototypeInSingleton/withAopProxyXml/ProtypeBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/injectPrototypeInSingleton/withAopProxyXml/SingleTon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/injectPrototypeInSingleton/withAopProxyXml/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/injectPrototypeInSingleton/withAopProxyXml/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/injectPrototypeInSingleton/withApplicatioContextAware/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/injectPrototypeInSingleton/withApplicatioContextAware/PrototypeBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/injectPrototypeInSingleton/withApplicatioContextAware/SingletoneBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/injectPrototypeInSingleton/withApplicatioContextAware/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/lifecycle/WithAnnotation/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/lifecycle/WithAnnotation/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/lifecycle/WithAnnotation/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/lifecycle/beanNameAware/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/lifecycle/beanNameAware/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/lifecycle/beanNameAware/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/lifecycle/contextAware/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/lifecycle/contextAware/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/lifecycle/contextAware/ShutDownHook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/lifecycle/contextAware/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/lifecycle/interfaceimp/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/lifecycle/interfaceimp/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/lifecycle/interfaceimp/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/lifecycle/methodBase/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/lifecycle/methodBase/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/lifecycle/methodBase/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/lifecycle/withClassConfig/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/lifecycle/withClassConfig/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/lifecycle/withClassConfig/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/scope/ClassConfig/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/scope/ClassConfig/ProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/scope/ClassConfig/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/scope/ClassConfig/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/scope/ClassConfig/TestXml.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/scope/ClassConfig/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/scopeWithLazy/BeanOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/scopeWithLazy/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/scopeWithLazy/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p02/BeanRegisteration/classConfig/BeanMessageDigest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p02/BeanRegisteration/classConfig/BeanUseMessageDigest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p02/BeanRegisteration/classConfig/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p02/BeanRegisteration/classConfig/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p02/BeanRegisteration/fullXml/BeanMessageDigest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p02/BeanRegisteration/fullXml/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p02/BeanRegisteration/fullXml/UseMessageDigest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p02/BeanRegisteration/fullXml/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p02/BeanRegisteration/xml/BeanMessageDigest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p02/BeanRegisteration/xml/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p02/BeanRegisteration/xml/UseMessageDigest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p02/BeanRegisteration/xml/config.xml" afterDir="false" />
+    <list default="true" id="a7b5eb70-b812-4c96-9af2-05a5f715115c" name="Changes" comment="git lifecycel full">
+      <change afterPath="$PROJECT_DIR$/src/main/java/p03/profile/InterNational/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p03/profile/InterNational/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p03/profile/InterNationalXml/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p03/profile/InterNationalXml/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p03/profile/classConfig/BeanFood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p03/profile/classConfig/BeanOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p03/profile/classConfig/BeanTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p03/profile/classConfig/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p03/profile/classConfig/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p03/profile/xml/FoodProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p03/profile/xml/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p03/profile/xml/config-home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p03/profile/xml/config-school.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p03/profile/xml/home/HoomFood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p03/profile/xml/school/SchoolFood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p04/event/standardEvent/BeanOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p04/event/standardEvent/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p04/event/standardEvent/EventStandardRefresh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p04/event/standardEvent/EventStandardStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p04/event/standardEvent/EventStandardStop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p04/event/standardEvent/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p05/event/CustomEvent/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p05/event/CustomEvent/CustomEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p05/event/CustomEvent/CustomEventPublisher1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p05/event/CustomEvent/CustomEventPublisher2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p05/event/CustomEvent/CustomEventPublisher3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p05/event/CustomEvent/EvenListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p05/event/CustomEvent/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lang.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lang_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lang_fa.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lang_fr.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +48,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
@@ -89,16 +66,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/springClass/beanDefinition&DI",
-    "spring.configuration.checksum": "32cc912de14df62df68837de0b400ae0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/springClass/beanDefinition&amp;DI&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;32cc912de14df62df68837de0b400ae0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\springClass\lifeCycle\src\main\java\p01\lifecycle\contextAware" />
@@ -106,17 +86,18 @@
       <recent name="D:\springClass\lifeCycle\src\main\java\p01\lifecycle\methodBase" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="p04.event.standardEvent" />
       <recent name="p02.BeanRegisteration.fullXml" />
       <recent name="p01.lifecycle.WithAnnotation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.p02.BeanRegisteration.fullXml.Test">
+  <component name="RunManager" selected="Application.p05.event.CustomEvent.Test">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p02.BeanRegisteration.xml.Test" />
+      <option name="MAIN_CLASS_NAME" value="p04.event.standardEvent.Test" />
       <module name="lifeCycle" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p02.BeanRegisteration.xml.*" />
+          <option name="PATTERN" value="p04.event.standardEvent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="p01.injectPrototypeInSingleton.withAopProxyXml.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p01.injectPrototypeInSingleton.withAopProxyXml.Test" />
+    <configuration name="p03.profile.InterNationalXml.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p03.profile.InterNationalXml.Test" />
       <module name="lifeCycle" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p01.injectPrototypeInSingleton.withAopProxyXml.*" />
+          <option name="PATTERN" value="p03.profile.InterNationalXml.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="p01.injectPrototypeInSingleton.withApplicatioContextAware.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p01.injectPrototypeInSingleton.withApplicatioContextAware.Test" />
+    <configuration name="p03.profile.InterNational.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p03.profile.InterNational.Test" />
       <module name="lifeCycle" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p01.injectPrototypeInSingleton.withApplicatioContextAware.*" />
+          <option name="PATTERN" value="p03.profile.InterNational.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +131,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="p02.BeanRegisteration.classConfig.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p02.BeanRegisteration.classConfig.Test" />
+    <configuration name="p03.profile.classConfig.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p03.profile.classConfig.Test" />
       <module name="lifeCycle" />
+      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=&quot;two&quot;" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p02.BeanRegisteration.classConfig.*" />
+          <option name="PATTERN" value="p03.profile.xml.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="p02.BeanRegisteration.fullXml.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p02.BeanRegisteration.fullXml.Test" />
+    <configuration name="p05.event.CustomEvent.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p05.event.CustomEvent.Test" />
       <module name="lifeCycle" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p02.BeanRegisteration.fullXml.*" />
+          <option name="PATTERN" value="p05.event.CustomEvent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,13 +158,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.p05.event.CustomEvent.Test" />
+      <item itemvalue="Application.p03.profile.InterNational.Test" />
+      <item itemvalue="Application.p03.profile.InterNationalXml.Test" />
+      <item itemvalue="Application.p03.profile.classConfig.Test" />
+      <item itemvalue="Application.Test" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.p02.BeanRegisteration.fullXml.Test" />
-        <item itemvalue="Application.p02.BeanRegisteration.classConfig.Test" />
+        <item itemvalue="Application.p05.event.CustomEvent.Test" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.p01.injectPrototypeInSingleton.withAopProxyXml.Test" />
-        <item itemvalue="Application.p01.injectPrototypeInSingleton.withApplicatioContextAware.Test" />
+        <item itemvalue="Application.p03.profile.InterNationalXml.Test" />
+        <item itemvalue="Application.p03.profile.InterNational.Test" />
+        <item itemvalue="Application.p03.profile.classConfig.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +188,19 @@
       <workItem from="1667481622980" duration="8718000" />
       <workItem from="1667563859695" duration="5423000" />
       <workItem from="1667620025304" duration="365000" />
+      <workItem from="1667622399444" duration="907000" />
+      <workItem from="1667707554733" duration="930000" />
+      <workItem from="1667985825561" duration="10316000" />
+      <workItem from="1668083902543" duration="4807000" />
     </task>
+    <task id="LOCAL-00001" summary="git lifecycel full">
+      <created>1667622552582</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667622552582</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,5 +216,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git lifecycel full" />
+    <option name="LAST_COMMIT_MESSAGE" value="git lifecycel full" />
   </component>
 </project>
